@@ -100,7 +100,6 @@ app.all('*', function (request, response, next) {
     next();
  });
 
-
  //function to verify the amount; returns a string if it's not an integer, a negative number, or a combination of the two.
 //if no errors in quantity, then it will return in empty string
 function validateQuantity(quantity){
